@@ -8,7 +8,7 @@ const NextJS13Review: FC = () => {
     <div>
       <Link href="/">back</Link>
       <CodePreview
-        imgURL="../../../../images/Link-component.png"
+        imgURL=""
         content={`
     // next.js 13.4 is a stable version of next.js 13 and one of the most important features in next.js 13 is app router
     // app router includes below concepts:
