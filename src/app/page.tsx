@@ -1,5 +1,5 @@
-import NextProvider from "@/components/providers/next-provider";
-import TSProvider from "@/components/providers/ts-provider";
+import NextProvider from "./components/providers/next-provider"
+import TSProvider from "./components/providers/ts-provider";
 
 import styles from "./page.module.css";
 import { ReactElement } from "react";

@@ -4,7 +4,7 @@ import React, { FC } from "react";
 const NextProvider: FC = () => {
   return (
     <div>
-      <Link href="/components/nextjs/setting-up">setting-up</Link>
+      <Link href="/components/nextjs/next.js13-review">next.js 13 review</Link>
     </div>
   );
 };
