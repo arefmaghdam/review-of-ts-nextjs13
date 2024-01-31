@@ -5,3 +5,9 @@
 body {
   color: rgb(var(--foreground-rgb));
 }
+
+@layer utilities {
+  .rtl {
+    direction: rtl;
+  }
+}

@@ -5,6 +5,7 @@ import styles from "./page.module.css";
 import { ReactElement } from "react";
 
 import { items } from "@/data/items";
+import ProductItem from "@/components/ProductItem";
 
 export default function Home(): ReactElement {
   const {products} = items;
@@ -14,9 +15,9 @@ export default function Home(): ReactElement {
       <div className={styles.homeContainer}>
         <div className={styles.homeItems}>
           <p className="text-lg">پروژه سبد خرید</p>
-          <div>
+          <div className="container grid grid-cols-2 m-auto pt-6">
             {products.map((item) => (
-              <div key={item.id}>{item.title}</div>
+              <ProductItem key={item.id} product={item} />
             ))}
           </div>
         </div>
