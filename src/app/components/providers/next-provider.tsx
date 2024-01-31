@@ -9,6 +9,7 @@ const NextProvider: FC = () => {
       <Link href="/components/nextjs/using-next-fonts">using next fonts</Link>
       <Link href="/components/nextjs/add-and-display-products">add and display products</Link>
       <Link href="/components/nextjs/product-component">product component</Link>
+      <Link href="/components/nextjs/adding-navbar">adding navbar</Link>
     </div>
   );
 };
