@@ -19,6 +19,7 @@ const NextProvider: FC = () => {
         install redux toolkit
       </Link>
       <Link href="/components/nextjs/create-slice">create slice</Link>
+      <Link href="/components/nextjs/store-provider">store provider</Link>
     </div>
   );
 };
