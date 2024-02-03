@@ -10,8 +10,10 @@ const NextProvider: FC = () => {
       <Link href="/components/nextjs/add-and-display-products">add and display products</Link>
       <Link href="/components/nextjs/product-component">product component</Link>
       <Link href="/components/nextjs/adding-navbar">adding navbar</Link>
+      <Link href="/components/nextjs/use-client">use client</Link>
     </div>
   );
 };
 
 export default NextProvider;
+

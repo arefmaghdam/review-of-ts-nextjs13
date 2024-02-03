@@ -12,7 +12,7 @@ const ProductItem: FC<any> = ({ product }: any) => {
         height={150}
         className="rounded-t-lg object-cover w-full"
       />
-      <div className="flex flex-col items-center justify-center p-5">
+      <div className="flex flex-col items-center justify-center p-5 rtl">
         <Link href={`/product/${product.id}`}>
           <h2 className="text-lg">{product.title}</h2>
         </Link>
