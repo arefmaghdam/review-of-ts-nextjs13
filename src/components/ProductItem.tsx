@@ -1,8 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
-import { FC } from "react";
+import React, { FC } from "react";
+import AddToCart from "./AddToCart";
 
-const ProductItem: FC<any> = ({ product }: any) => {
+type ProductItemProps = {
+  product: any;
+};
+
+const ProductItem: FC<ProductItemProps> = ({ product }) => {
   return (
     <div className="rounded-lg bg-slate-900 m-5">
       <Image
@@ -17,9 +22,7 @@ const ProductItem: FC<any> = ({ product }: any) => {
           <h2 className="text-lg">{product.title}</h2>
         </Link>
         <p className="mt-2 rtl text-slate-300">{product.price} تومان</p>
-        <button className="border border-slate-300 text-slate-300 rounded-lg px-3 py-2 mt-3 hover:bg-slate-800">
-          افزودن به سبد خرید
-        </button>
+        <AddToCart product={product} />
       </div>
     </div>
   );
