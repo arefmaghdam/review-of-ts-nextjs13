@@ -26,6 +26,9 @@ const NextProvider: FC = () => {
       <Link href="/components/nextjs/add-to-cart-component">
         add to cart component
       </Link>
+      <Link href="/components/nextjs/create-product-page">
+        create product page
+      </Link>
     </div>
   );
 };

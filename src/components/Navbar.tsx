@@ -12,9 +12,9 @@ const Navbar: FC = () => {
         <Link href="/" className="text-lg">
           Digital Market
         </Link>
-        <div>
-          <span>
-            {cartItems.reduce((acc: number, cur: any) => acc + cur.qty, 0)}
+        <div className="border border-slate-500 px-2 py-1 rounded-lg bg-slate-900">
+          <span className="px-2">
+            ({cartItems.reduce((acc: number, cur: any) => acc + cur.qty, 0)})
           </span>
           <Link href="/cart">سبد خرید</Link>
         </div>
