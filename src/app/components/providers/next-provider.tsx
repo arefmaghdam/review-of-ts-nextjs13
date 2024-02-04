@@ -20,6 +20,7 @@ const NextProvider: FC = () => {
       </Link>
       <Link href="/components/nextjs/create-slice">create slice</Link>
       <Link href="/components/nextjs/store-provider">store provider</Link>
+      <Link href="/components/nextjs/add-to-cart">add to cart</Link>
     </div>
   );
 };
