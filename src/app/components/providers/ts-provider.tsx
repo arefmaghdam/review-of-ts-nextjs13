@@ -9,6 +9,7 @@ const TSProvider: FC = () => {
         typescript-using
       </Link>
       <Link href="/components/typescript/union-type">union-type</Link>
+      <Link href="/components/typescript/object-type">object-type</Link>
     </div>
   );
 };
