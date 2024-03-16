@@ -5,6 +5,9 @@ const TSProvider: FC = () => {
   return (
     <div>
       <Link href="/components/typescript/introduction">introduction</Link>
+      <Link href="/components/typescript/typescript-using">
+        typescript-using
+      </Link>
     </div>
   );
 };
