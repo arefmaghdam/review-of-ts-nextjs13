@@ -4,7 +4,7 @@ import Link from "next/link";
 const TSProvider: FC = () => {
   return (
     <div>
-      <Link href="/javascript/introduction">introduction</Link>
+      <Link href="/components/typescript/introduction">introduction</Link>
     </div>
   );
 };
