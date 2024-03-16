@@ -8,6 +8,7 @@ const TSProvider: FC = () => {
       <Link href="/components/typescript/typescript-using">
         typescript-using
       </Link>
+      <Link href="/components/typescript/union-type">union-type</Link>
     </div>
   );
 };
