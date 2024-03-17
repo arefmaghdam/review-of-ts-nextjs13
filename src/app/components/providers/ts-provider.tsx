@@ -15,6 +15,7 @@ const TSProvider: FC = () => {
         function-argument-type
       </Link>
       <Link href="/components/typescript/functions-types">functions-types</Link>
+      <Link href="/components/typescript/custom-types">custom-types</Link>
     </div>
   );
 };
