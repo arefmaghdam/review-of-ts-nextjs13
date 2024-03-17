@@ -16,6 +16,7 @@ const TSProvider: FC = () => {
       </Link>
       <Link href="/components/typescript/functions-types">functions-types</Link>
       <Link href="/components/typescript/custom-types">custom-types</Link>
+      <Link href="/components/typescript/interface-using">interface-using</Link>
     </div>
   );
 };
