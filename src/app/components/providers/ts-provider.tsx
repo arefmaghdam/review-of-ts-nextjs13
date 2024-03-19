@@ -21,6 +21,7 @@ const TSProvider: FC = () => {
         type-vs-interface
       </Link>
       <Link href="/components/typescript/type-fusion">type-fusion</Link>
+      <Link href="/components/typescript/literal-types">literal-types</Link>
     </div>
   );
 };
