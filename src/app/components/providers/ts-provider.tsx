@@ -23,6 +23,7 @@ const TSProvider: FC = () => {
       <Link href="/components/typescript/type-fusion">type-fusion</Link>
       <Link href="/components/typescript/literal-types">literal-types</Link>
       <Link href="/components/typescript/generic-types">generic-types</Link>
+      <Link href="/components/typescript/vite">vite</Link>
     </div>
   );
 };
