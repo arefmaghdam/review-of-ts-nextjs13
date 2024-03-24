@@ -25,6 +25,9 @@ const TSProvider: FC = () => {
       <Link href="/components/typescript/generic-types">generic-types</Link>
       <Link href="/components/typescript/vite">vite</Link>
       <Link href="/components/typescript/using-tailwind">using-tailwind</Link>
+      <Link href="/components/typescript/form-implementation">
+        form-implementation
+      </Link>
     </div>
   );
 };
