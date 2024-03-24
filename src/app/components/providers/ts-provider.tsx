@@ -28,6 +28,9 @@ const TSProvider: FC = () => {
       <Link href="/components/typescript/form-implementation">
         form-implementation
       </Link>
+      <Link href="/components/typescript/save-in-local-storage">
+        save-in-local-storage
+      </Link>
     </div>
   );
 };

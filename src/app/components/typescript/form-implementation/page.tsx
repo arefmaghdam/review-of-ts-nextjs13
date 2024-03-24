@@ -79,6 +79,9 @@ const FormImplementation: FC = () => {
             email: email.value,
           }
           addUser(userItem)
+
+          name.value = ""
+          email.value = ""
         })
 
         function addUser(item: Item) {
